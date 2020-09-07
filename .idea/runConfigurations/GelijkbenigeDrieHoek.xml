@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="GelijkbenigeDrieHoek" type="Applet" folderName="h04" singleton="false">
+    <option name="HEIGHT" value="400" />
+    <option name="MAIN_CLASS_NAME" value="h04.GelijkbenigeDriehoek" />
+    <module name="inleiding-java" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -10,9 +10,10 @@ public class drawing extends Applet {
     }
 
     public void paint(Graphics g) {
-        setBackground(Color.blue);
+        setBackground(Color.white);
         g.setColor(Color.yellow);
+        g.fillRect(20, 20, 100, 50);
+        g.setColor(Color.black);
         g.drawRect(20, 20, 100, 50);
-        g.fillRect(20, 80, 100, 50);
     }
 }

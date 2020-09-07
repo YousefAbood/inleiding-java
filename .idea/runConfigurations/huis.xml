@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="huis" type="Applet" folderName="h04" singleton="false">
+    <option name="HEIGHT" value="1200" />
+    <option name="MAIN_CLASS_NAME" value="h04.huis" />
+    <module name="inleiding-java" />
+    <option name="WIDTH" value="1400" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

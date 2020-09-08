@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="gewichtenbarchart" type="Applet" folderName="h04" singleton="false">
+    <option name="MAIN_CLASS_NAME" value="h04.gewichten" />
+    <module name="inleiding-java" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

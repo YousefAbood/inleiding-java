@@ -31,7 +31,7 @@ public class Assignment62 extends Applet {
 
     public void paint(Graphics g) {
         // Colors
-        Color Red = new Color(174, 28, 40);
+        Color Red = new Color(174, 28, 40, 244);
         Color White = new Color(255, 255, 255);
         Color Blue = new Color(33, 70, 139);
 

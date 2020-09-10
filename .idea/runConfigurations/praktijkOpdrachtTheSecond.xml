@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="praktijkopdracht" type="Applet" folderName="h04" singleton="false">
-    <option name="MAIN_CLASS_NAME" value="h04.praktijkopdracht" />
+  <configuration default="false" name="praktijkOpdrachtTheSecond" type="Applet" folderName="h06" singleton="false">
+    <option name="MAIN_CLASS_NAME" value="h06.praktijkOpdrachtTheSecond" />
     <module name="inleiding-java" />
     <method v="2">
       <option name="Make" enabled="true" />

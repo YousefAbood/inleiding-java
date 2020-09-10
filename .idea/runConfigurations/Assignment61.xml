@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Assignment61" type="Applet" folderName="h06" singleton="false">
+    <option name="MAIN_CLASS_NAME" value="h06.Assignment61" />
+    <module name="inleiding-java" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

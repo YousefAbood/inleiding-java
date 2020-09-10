@@ -30,8 +30,7 @@ public class gewichten extends Applet {
 
         // Y Axis, NOTE, 85 PERFECT VALUE FOR HEIGHT 500!!!!!!!!!!!!!
 
-        // Equation for Variables, For every number you subtract from height(500), you add to Y Axis (85)!
-        // Vice Versa, Add to height, you subtract from Y Axis
+       
         g.setColor(Color.black);
         g.fillRect(150, 80, 15, 500);
 

@@ -21,8 +21,8 @@ public class praktijkOpdrachtTheSecond extends Applet {
         numberofvakken = 3.0;
 
         average = (CijferOne + CijferTwo + CijferThree) / numberofvakken;
-        roundedAverage = (int) (average * 10.0);
-        output = roundedAverage / 10.0;
+        roundedAverage = (int) (average * 10);
+        output = roundedAverage / 10;
         System.out.println(output);
     }
 

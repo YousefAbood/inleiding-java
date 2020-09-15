@@ -2,15 +2,16 @@ package h10;
 
 import java.applet.Applet;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class Assignment101 extends Applet {
+public class Assignment102 extends Applet {
 
     Button submitButton;
     Label submittedLabel;
     TextField submittedTextField;
-    String submitGetText, submitStrToInt;
-    int highestNumber, submittedNumber;
+    String submitGetText;
+    int highestNumber, lowestNumber, submittedNumber;
 
     public void init() {
         // Background Color
@@ -34,6 +35,11 @@ public class Assignment101 extends Applet {
         Comparsion submittedTextFieldEvent = new Comparsion();
         submittedTextField.addActionListener(submittedTextFieldEvent);
 
+
+        // Lowest Number
+
+        lowestNumber = 50;
+
         // Add
         add(submittedLabel);
         add(submittedTextField);
@@ -47,7 +53,10 @@ public class Assignment101 extends Applet {
         g.drawString("This is the submitted number >> " + submittedNumber, 525, 200);
 
         // Highest Number
-        g.drawString("This is the highest number >> " + highestNumber, 575, 250);
+        g.drawString("This is the lowest number >> " + lowestNumber, 575, 250);
+
+        // Lowest Number
+        g.drawString("This is the highest number >> " + highestNumber, 625, 300);
 
     }
 
@@ -60,10 +69,13 @@ public class Assignment101 extends Applet {
                 submittedTextField.setText("");
                 repaint();
             }
-            else {
-                submittedTextField.setText("");
+
+            if (submittedNumber < lowestNumber && lowestNumber < highestNumber) {
+                lowestNumber = submittedNumber;
                 repaint();
             }
+            submittedTextField.setText("");
+            repaint();
         }
     }
 

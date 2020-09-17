@@ -9,6 +9,9 @@ public class Assignment111 extends Applet {
     int i, x1, y1, x2, y2;
 
     public void init() {
+        // Background Color
+        Color SkyColor = new Color(69, 182, 217);
+        setBackground(SkyColor);
 
         // Screen Size
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
@@ -17,13 +20,19 @@ public class Assignment111 extends Applet {
         resize(width, height);
 
         // Variables Initializaton
-        x1 = 20;
-        y1 = 20;
-        x2 = 80;
-        y2 = 80;
+        x1 = 40;
+        y1 = 50;
+        x2 = 40;
+        y2 = 600;
     }
 
     public void paint(Graphics g) {
-        g.drawLine(20, 20, 80, 80);
+        // While Loop, Reaches 10. Cuts Off!
+        while (i < 10) {
+            x1 += 40;
+            x2 += 40;
+            g.drawLine(x1, y1, x2, y2);
+            i++;
+        }
     }
 }

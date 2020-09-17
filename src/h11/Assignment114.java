@@ -3,13 +3,13 @@ package h11;
 import java.applet.Applet;
 import java.awt.*;
 
-public class Assignment113 extends Applet {
 
-    int x, y, fibSeqOne, fibSeqTwo, input;
+public class Assignment114 extends Applet {
+
+    int x, y, addition, number, output;
     Color black = new Color(9, 31, 44);
 
     public void init() {
-
         // Background Color
         Color SkyColor = new Color(69, 182, 217);
         setBackground(SkyColor);
@@ -20,24 +20,21 @@ public class Assignment113 extends Applet {
         int height = screenSize.height;
         resize(width, height);
 
-
         // Variables
         x = 40;
         y = 350;
-        fibSeqOne = 0;
-        fibSeqTwo = 1;
+        addition = 0;
+        number = 3;
     }
 
     public void paint(Graphics g) {
         g.setFont(new Font("TimesRoman", Font.BOLD | Font.ITALIC, 15));
         g.setColor(black);
-        while (input < 100000) {
+        while (output < 100) {
             x += 40;
-            input = fibSeqOne + fibSeqTwo;
-            fibSeqOne = fibSeqTwo;
-            fibSeqTwo = input;
-            g.drawString("" + input, x, y);
+            output = addition + number;
+            addition = output;
+            g.drawString("" + output, x, y);
         }
-
     }
 }

@@ -1,5 +1,0 @@
-1) resize method requires java.awt import, that means in the documentation it exists under methods you can use
-when importing java.awt
-
-2) it is called in the Show class!
-

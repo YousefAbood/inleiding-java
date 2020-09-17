@@ -22,14 +22,15 @@ public class Assignment112 extends Applet {
 
     public void init() {
 
+        // Background Color
+        setBackground(SkyColor);
+
         // Screen Size
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         int width = screenSize.width;
         int height = screenSize.height;
         resize(width, height);
 
-        // Background Color
-        setBackground(SkyColor);
 
         // X, Y coordinates
         i = 0;

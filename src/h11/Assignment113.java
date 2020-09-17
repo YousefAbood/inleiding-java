@@ -5,9 +5,14 @@ import java.awt.*;
 
 public class Assignment113 extends Applet {
 
-    int i, x, y, fibSeq;
+    int x, y, fibSeqOne, fibSeqTwo, input;
+    Color black = new Color(9, 31, 44);
 
     public void init() {
+
+        // Background Color
+        Color SkyColor = new Color(69, 182, 217);
+        setBackground(SkyColor);
 
         // Screen Size
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
@@ -15,18 +20,24 @@ public class Assignment113 extends Applet {
         int height = screenSize.height;
         resize(width, height);
 
-        // Background Color
-        Color SkyColor = new Color(69, 182, 217);
-        setBackground(SkyColor);
 
         // Variables
-        i = 0;
         x = 40;
         y = 350;
-        fibSeq = 0;
+        fibSeqOne = 0;
+        fibSeqTwo = 1;
     }
 
     public void paint(Graphics g) {
+        g.setFont(new Font("TimesRoman", Font.BOLD | Font.ITALIC, 15));
+        g.setColor(black);
+        while (input < 10000) {
+            x += 40;
+            input = fibSeqOne + fibSeqTwo;
+            fibSeqOne = fibSeqTwo;
+            fibSeqTwo = input;
+            g.drawString("" + input, x, y);
+        }
 
     }
 }

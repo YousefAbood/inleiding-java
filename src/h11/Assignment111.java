@@ -9,15 +9,17 @@ public class Assignment111 extends Applet {
     int i, x1, y1, x2, y2;
 
     public void init() {
+
+        // Background Color
+        Color SkyColor = new Color(69, 182, 217);
+        setBackground(SkyColor);
+
         // Screen Size
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         int width = screenSize.width;
         int height = screenSize.height;
         resize(width, height);
 
-        // Background Color
-        Color SkyColor = new Color(69, 182, 217);
-        setBackground(SkyColor);
 
         // Variables Initializaton
         x1 = 40;

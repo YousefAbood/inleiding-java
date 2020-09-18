@@ -12,13 +12,12 @@ import java.awt.*;
 
 public class Assignment119 extends Applet {
 
-    int x, y, i, rectWidth, rectHeight;
+    int x, y, i, rectWidth, rectHeight, rowcounter;
+    Color SkyColor = new Color(69, 182, 217);
 
     public void init() {
 
         // Background Color
-        Color SkyColor = new Color(69, 182, 217);
-        setBackground(SkyColor);
 
         // Screen Size
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
@@ -26,14 +25,29 @@ public class Assignment119 extends Applet {
         int height = screenSize.height;
         resize(width, height);
 
-        //
+        // Variables
+        x = 50;
+        y = 50;
+        rectWidth = 100;
+        rectHeight = 100;
 
     }
 
     public void paint(Graphics g) {
+        setBackground(SkyColor);
         for (i = 0; i < 64; i++) {
+            if (i%2 == 0) {
+                g.setColor(Color.white);
+                g.fillRect(x, y, rectWidth, rectHeight);
+                x += rectWidth;
 
+            }
 
+            if (!(i%2 == 0)) {
+                g.setColor(Color.black);
+                g.fillRect(x, y, rectWidth, rectHeight);
+                x += rectWidth;
+            }
         }
     }
 }

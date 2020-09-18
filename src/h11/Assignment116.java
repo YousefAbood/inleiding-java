@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class Assignment116 extends Applet {
 
-    int x, y, widthCircle, heightCircle;
+    int x, y, i, widthCircle, heightCircle, changeinSize;
 
     public void init() {
         // Background Color
@@ -21,11 +21,21 @@ public class Assignment116 extends Applet {
         // Variables
         x = 650;
         y = 350;
-        widthCircle = 20;
-        heightCircle = 20;
+        widthCircle = 0;
+        heightCircle = 0;
+        changeinSize = 0;
     }
 
     public void paint(Graphics g) {
-        g.drawOval(x, y, widthCircle, heightCircle);
+        // For Every Loop
+        // Oval change in size by 20 width & height
+        // If we change size of Oval without X, Y coordinates, It shifts!
+        // So we change the coordinates of the beginning point of drawing the Oval.
+        for (i = 0; i < 5; i++) {
+            changeinSize += 20;
+            x -= 10;
+            y -= 10;
+            g.drawOval(x, y, widthCircle+(changeinSize), heightCircle+(changeinSize));
+        }
     }
 }

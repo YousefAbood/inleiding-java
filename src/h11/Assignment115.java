@@ -27,7 +27,10 @@ public class Assignment115 extends Applet {
     }
 
     public void paint(Graphics g) {
-        g.drawRect(x, y, widthSquare, heightSquare);
-
+        for (i = 0; i < 6; i++) {
+            x += 50;
+            y += 50;
+            g.drawRect(x, y, widthSquare, heightSquare);
+        }
     }
 }

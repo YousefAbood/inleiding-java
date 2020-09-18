@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Assignment115.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h11/Assignment115.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +96,7 @@
       <workItem from="1600267137244" duration="195000" />
       <workItem from="1600267909842" duration="1420000" />
       <workItem from="1600339714814" duration="12450000" />
-      <workItem from="1600421054807" duration="2043000" />
+      <workItem from="1600421054807" duration="2420000" />
     </task>
     <task id="LOCAL-00001" summary="AppletViewer">
       <created>1599387640452</created>
@@ -382,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600349930491</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Initialized Width, Height, X, Y, Drew Rectangle on Screen!">
+      <created>1600425809896</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1600425809896</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +407,8 @@
     <MESSAGE value="Rearranged Code" />
     <MESSAGE value="While Statement, Initialized variables, dynamic variable for any table!" />
     <MESSAGE value="While Statement, Initialized variables, added new variable febSeqTwo!" />
-    <option name="LAST_COMMIT_MESSAGE" value="While Statement, Initialized variables, added new variable febSeqTwo!" />
+    <MESSAGE value="Initialized Width, Height, X, Y, Drew Rectangle on Screen!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialized Width, Height, X, Y, Drew Rectangle on Screen!" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">

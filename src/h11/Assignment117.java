@@ -38,3 +38,32 @@ public class Assignment117 extends Applet {
         }
     }
 }
+//    int x, y, i, widthCircle, heightCircle, changeinSize;
+//
+//    public void init() {
+//        // Background Color
+//        Color SkyColor = new Color(69, 182, 217);
+//        setBackground(SkyColor);
+//
+//        // Screen Size
+//        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+//        int width = screenSize.width;
+//        int height = screenSize.height;
+//        resize(width, height);
+//
+//        // Variables
+//        x = 650;
+//        y = 350;
+//        widthCircle = 50;
+//        heightCircle = 50;
+//        changeinSize = 0;
+//    }
+//
+//    public void paint(Graphics g) {
+//        // For Every Loop
+//        while (i < 100) {
+//            i++;
+//            changeinSize += 10;
+//            g.drawArc(x, y, widthCircle+(changeinSize), heightCircle+(changeinSize), 0, 360);
+//        }
+//    }

@@ -12,6 +12,7 @@ import java.awt.*;
 
 public class Assignment119 extends Applet {
 
+    Boolean active = Boolean.TRUE;
     int x, y, i, rectWidth, rectHeight, rowcounter;
     Color SkyColor = new Color(69, 182, 217);
     Color white, black;
@@ -30,8 +31,8 @@ public class Assignment119 extends Applet {
         // Variables
         x = 50;
         y = 50;
-        rectWidth = 100;
-        rectHeight = 100;
+        rectWidth = 50;
+        rectHeight = 50;
         white = new Color(255, 255, 255);
         black = new Color(0, 0, 0);
 
@@ -40,20 +41,33 @@ public class Assignment119 extends Applet {
 
     public void paint(Graphics g) {
         setBackground(SkyColor);
-        for (i = 0; i < 48; i++) {
-            if (i%2 == 0) {
-                g.setColor(black);
-            }
-
-            else {
-                g.setColor(white);
-            }
-
+        for (i = 0; i < 64; i++) {
             if (i%8 == 0 && !(i == 0)) {
                 rowcounter++;
                 x = 50;
                 y = 50;
-                y = 50 + (rowcounter * 100);
+                y = 50 + (rowcounter * 50);
+                if (rowcounter == 2 | rowcounter == 4 | rowcounter == 6 | rowcounter == 8) {
+                    active = Boolean.TRUE;
+                }
+
+                else {
+                    active = Boolean.FALSE;
+                }
+            }
+
+            if (i%2 == 0) {
+                g.setColor(white);
+                if (active) {
+                    g.setColor(black);
+                }
+            }
+
+            else {
+                g.setColor(black);
+                if (active) {
+                    g.setColor(white);
+                }
             }
 
             x += rectWidth;

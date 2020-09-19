@@ -14,10 +14,12 @@ public class Assignment119 extends Applet {
 
     int x, y, i, rectWidth, rectHeight, rowcounter;
     Color SkyColor = new Color(69, 182, 217);
+    Color white, black;
 
     public void init() {
 
         // Background Color
+        setBackground(SkyColor);
 
         // Screen Size
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
@@ -30,24 +32,32 @@ public class Assignment119 extends Applet {
         y = 50;
         rectWidth = 100;
         rectHeight = 100;
+        white = new Color(255, 255, 255);
+        black = new Color(0, 0, 0);
+
 
     }
 
     public void paint(Graphics g) {
         setBackground(SkyColor);
-        for (i = 0; i < 64; i++) {
+        for (i = 0; i < 48; i++) {
             if (i%2 == 0) {
-                g.setColor(Color.white);
-                g.fillRect(x, y, rectWidth, rectHeight);
-                x += rectWidth;
-
+                g.setColor(black);
             }
 
-            if (!(i%2 == 0)) {
-                g.setColor(Color.black);
-                g.fillRect(x, y, rectWidth, rectHeight);
-                x += rectWidth;
+            else {
+                g.setColor(white);
             }
+
+            if (i%8 == 0 && !(i == 0)) {
+                rowcounter++;
+                x = 50;
+                y = 50;
+                y = 50 + (rowcounter * 100);
+            }
+
+            x += rectWidth;
+            g.fillRect(x, y, rectWidth, rectHeight);
         }
     }
 }

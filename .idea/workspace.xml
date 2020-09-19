@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="50 Circles Generated, Explanation on how it works!">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Assignment119.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Assignment119.xml" afterDir="false" />
+    <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="Added If-Statements with Modulo to know whether to use Black or White">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/h08/testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h08/testing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/h11/Assignment111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h11/Assignment111.java" afterDir="false" />
@@ -46,17 +45,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Applet.Assignment119">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Applet.AppletViewer" />
       <item itemvalue="Applet.Assignment21" />
@@ -117,14 +105,8 @@
       <workItem from="1600267137244" duration="195000" />
       <workItem from="1600267909842" duration="1420000" />
       <workItem from="1600339714814" duration="12450000" />
-      <workItem from="1600421054807" duration="16764000" />
-    </task>
-    <task id="LOCAL-00002" summary="Assignment21, Name in Yellow, Blue Background">
-      <created>1599391200267</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1599391200267</updated>
+      <workItem from="1600421054807" duration="21886000" />
+      <workItem from="1600496791837" duration="8748000" />
     </task>
     <task id="LOCAL-00003" summary="Assignment22, Backgroundcolor White Roepnaam Blue Achternaam Red">
       <created>1599392717304</created>
@@ -462,11 +444,28 @@
       <option name="project" value="LOCAL" />
       <updated>1600456680385</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Added If-Statements with Modulo to know whether to use Black or White">
+      <created>1600459268073</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1600459268073</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AppletViewer" />
@@ -492,7 +491,8 @@
     <MESSAGE value="100 Circles from Starting Point" />
     <MESSAGE value="50 Circles Generated, Explanation on how it works!" />
     <MESSAGE value="Created For Loop to last 64 Loops, Initialized int i." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created For Loop to last 64 Loops, Initialized int i." />
+    <MESSAGE value="Added If-Statements with Modulo to know whether to use Black or White" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added If-Statements with Modulo to know whether to use Black or White" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -514,14 +514,15 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="1796" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600095629236" />
-    <state x="43" y="0" key="CommitChangelistDialog2" timestamp="1600456676896">
+    <state x="353" y="0" key="CommitChangelistDialog2" timestamp="1600459266017">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="43" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1600456676896" />
+    <state x="353" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1600459266017" />
     <state x="1449" y="0" key="CommitChangelistDialog2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600349927964" />
-    <state x="1384" y="56" key="DiffContextDialog" timestamp="1600349821813">
-      <screen x="1366" y="0" width="1366" height="738" />
+    <state x="18" y="56" width="1092" height="618" key="DiffContextDialog" timestamp="1600462834323">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="18" y="56" width="1092" height="618" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1600462834323" />
     <state x="1384" y="56" key="DiffContextDialog/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600349821813" />
     <state x="600" y="124" key="FileChooserDialogImpl" timestamp="1600095840653">
       <screen x="0" y="0" width="1366" height="738" />
@@ -531,25 +532,25 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="241" height="182" key="Git.Branch.Popup/0.0.1366.738@0.0.1366.738" timestamp="1600448513753" />
-    <state width="428" height="509" key="GridCell.Tab.0.bottom" timestamp="1600458810731">
+    <state width="598" height="509" key="GridCell.Tab.0.bottom" timestamp="1600510134822">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="428" height="509" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1600458810731" />
+    <state width="598" height="509" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1600510134822" />
     <state width="447" height="512" key="GridCell.Tab.0.bottom/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600354474699" />
-    <state width="428" height="509" key="GridCell.Tab.0.center" timestamp="1600458810730">
+    <state width="598" height="509" key="GridCell.Tab.0.center" timestamp="1600510134821">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="428" height="509" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1600458810730" />
+    <state width="598" height="509" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1600510134821" />
     <state width="447" height="512" key="GridCell.Tab.0.center/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600354474698" />
-    <state width="428" height="509" key="GridCell.Tab.0.left" timestamp="1600458810729">
+    <state width="598" height="509" key="GridCell.Tab.0.left" timestamp="1600510134821">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="428" height="509" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1600458810729" />
+    <state width="598" height="509" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1600510134821" />
     <state width="447" height="512" key="GridCell.Tab.0.left/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600354474698" />
-    <state width="428" height="509" key="GridCell.Tab.0.right" timestamp="1600458810730">
+    <state width="598" height="509" key="GridCell.Tab.0.right" timestamp="1600510134821">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="428" height="509" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1600458810730" />
+    <state width="598" height="509" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1600510134821" />
     <state width="447" height="512" key="GridCell.Tab.0.right/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600354474698" />
     <state x="1529" y="0" key="SettingsEditor" timestamp="1600095928870">
       <screen x="1366" y="0" width="1366" height="738" />
@@ -560,15 +561,15 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1599478319029" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1600456684650">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1600459276732">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600456684650" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600459276732" />
     <state x="1641" y="102" key="Vcs.Push.Dialog.v2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600349947361" />
-    <state x="1712" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1600162997538">
-      <screen x="1366" y="0" width="1366" height="738" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1600505937168">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1600033182597" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1600505937168" />
     <state x="1712" y="59" width="672" height="678" key="search.everywhere.popup/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600162997538" />
   </component>
 </project>

@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="Added If-Statements with Modulo to know whether to use Black or White">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Assignment120.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h11/Assignment120.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h08/testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h08/testing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h11/Assignment111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h11/Assignment111.java" afterDir="false" />
+    <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/h11/Assignment120.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h11/Assignment120.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,21 +116,7 @@
       <workItem from="1600339714814" duration="12450000" />
       <workItem from="1600421054807" duration="21886000" />
       <workItem from="1600496791837" duration="15291000" />
-      <workItem from="1600605934889" duration="2516000" />
-    </task>
-    <task id="LOCAL-00005" summary="GelijkbenigeDriehoek">
-      <created>1599477010650</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1599477010650</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Commit">
-      <created>1599485420679</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1599485420679</updated>
+      <workItem from="1600605934889" duration="3721000" />
     </task>
     <task id="LOCAL-00007" summary="Klaar">
       <created>1599555077054</created>
@@ -465,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600521423447</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Created submitClass(Class) &amp; Instance (submitEvent) &amp; Button (submitButton) &amp; Variables">
+      <created>1600629102552</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1600629102553</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Created For-Loop, TextField, Label, Instance(TextfieldEvent), Initialized all Variables">
+      <created>1600629829572</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1600629829572</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,8 +478,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment21, Name in Yellow, Blue Background" />
-    <MESSAGE value="Assignment22, Backgroundcolor White Roepnaam Blue Achternaam Red" />
     <MESSAGE value="Example Commit" />
     <MESSAGE value="GelijkbenigeDriehoek" />
     <MESSAGE value="Commit" />
@@ -507,10 +501,16 @@
     <MESSAGE value="Added If-Statements with Modulo to know whether to use Black or White" />
     <MESSAGE value="Created If-Statement to go down one level every 8 squares." />
     <MESSAGE value="Created If-Statement to switch black and white according to %, Cleaner Code!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created If-Statement to switch black and white according to %, Cleaner Code!" />
+    <MESSAGE value="Created submitClass(Class) &amp; Instance (submitEvent) &amp; Button (submitButton) &amp; Variables" />
+    <MESSAGE value="Created For-Loop, TextField, Label, Instance(TextfieldEvent), Initialized all Variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created For-Loop, TextField, Label, Instance(TextfieldEvent), Initialized all Variables" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="434" y="193" key="#Notifications" timestamp="1600630068530">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="434" y="193" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1600630068530" />
     <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600628365217">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -529,10 +529,10 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="1796" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600095629236" />
-    <state x="216" y="0" width="1110" height="738" key="CommitChangelistDialog2" timestamp="1600521421287">
+    <state x="-18" y="0" width="1110" height="692" key="CommitChangelistDialog2" timestamp="1600629827559">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="216" y="0" width="1110" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1600521421287" />
+    <state x="-18" y="0" width="1110" height="692" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1600629827559" />
     <state x="1449" y="0" key="CommitChangelistDialog2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600349927964" />
     <state x="18" y="56" width="1092" height="618" key="DiffContextDialog" timestamp="1600462834323">
       <screen x="0" y="0" width="1366" height="738" />
@@ -576,10 +576,10 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1599478319029" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1600521426748">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1600629841453">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600521426748" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600629841453" />
     <state x="1641" y="102" key="Vcs.Push.Dialog.v2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600349947361" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1600505937168">
       <screen x="0" y="0" width="1366" height="738" />

@@ -33,6 +33,9 @@ public class Assignment120 extends Applet {
     }
 
     public void paint(Graphics g) {
+
+        // For Loop
+
         for (i = 0; i < 12; i++) {
 
         }

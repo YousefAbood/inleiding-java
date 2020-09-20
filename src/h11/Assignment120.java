@@ -10,7 +10,7 @@ public class Assignment120 extends Applet {
     Label labelTextField;
     TextField textField;
     String getText;
-    int i, input, output, getTextstrToInt;
+    int i, output, getTextstrToInt, x, y;
     Color SkyColor = new Color(69, 182, 217);
 
     public void init() {
@@ -29,21 +29,47 @@ public class Assignment120 extends Applet {
         submitClass submitEvent = new submitClass();
         submitButton.addActionListener(submitEvent);
 
+        // Text Field
 
+        // Label
+        labelTextField = new Label("Enter Number You Want Here & It's table shall appear >> ");
+        textField = new TextField("", 30);
+        submitClass textFieldEvent = new submitClass();
+        textField.addActionListener(textFieldEvent);
+
+        // Variables
+
+        // Coordinates
+        x = 50;
+        y = 20;
+
+        // Add
+        add(labelTextField);
+        add(textField);
+        add(submitButton);
     }
 
     public void paint(Graphics g) {
 
         // For Loop
-
-        for (i = 0; i < 12; i++) {
-
+        g.setColor(Color.black);
+        g.setFont(new Font("TimesRoman", Font.BOLD, 30));
+        for (i = 1; i < 13; i++) {
+            x += 50;
+            y += 50;
+            output = getTextstrToInt * i;
+            g.drawString(getTextstrToInt + " * " + i + " = " + output, x, y);
         }
     }
 
    class submitClass implements ActionListener {
        public void actionPerformed(ActionEvent e) {
-
+            getText = textField.getText();
+            getTextstrToInt = Integer.parseInt(getText);
+            textField.setText("");
+            x = 50;
+            y = 20;
+            repaint();
        }
    }
 }

@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="">
+    <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="Added If-Statements with Modulo to know whether to use Black or White">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Assignment120.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Assignment120.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/h11/Assignment120.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h11/Assignment120.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +136,14 @@
       <workItem from="1600339714814" duration="12450000" />
       <workItem from="1600421054807" duration="21886000" />
       <workItem from="1600496791837" duration="15291000" />
-      <workItem from="1600605934889" duration="3721000" />
+      <workItem from="1600605934889" duration="3369000" />
+    </task>
+    <task id="LOCAL-00006" summary="Commit">
+      <created>1599485420679</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599485420679</updated>
     </task>
     <task id="LOCAL-00007" summary="Klaar">
       <created>1599555077054</created>
@@ -454,14 +481,7 @@
       <option name="project" value="LOCAL" />
       <updated>1600629102553</updated>
     </task>
-    <task id="LOCAL-00055" summary="Created For-Loop, TextField, Label, Instance(TextfieldEvent), Initialized all Variables">
-      <created>1600629829572</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1600629829572</updated>
-    </task>
-    <option name="localTasksCounter" value="56" />
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +497,19 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Assignment22, Backgroundcolor White Roepnaam Blue Achternaam Red" />
     <MESSAGE value="Example Commit" />
     <MESSAGE value="GelijkbenigeDriehoek" />
     <MESSAGE value="Commit" />
@@ -502,19 +534,14 @@
     <MESSAGE value="Created If-Statement to go down one level every 8 squares." />
     <MESSAGE value="Created If-Statement to switch black and white according to %, Cleaner Code!" />
     <MESSAGE value="Created submitClass(Class) &amp; Instance (submitEvent) &amp; Button (submitButton) &amp; Variables" />
-    <MESSAGE value="Created For-Loop, TextField, Label, Instance(TextfieldEvent), Initialized all Variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created For-Loop, TextField, Label, Instance(TextfieldEvent), Initialized all Variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created submitClass(Class) &amp; Instance (submitEvent) &amp; Button (submitButton) &amp; Variables" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="434" y="193" key="#Notifications" timestamp="1600630068530">
+    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600630719716">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="434" y="193" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1600630068530" />
-    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600628365217">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1600628365217" />
+    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1600630719716" />
     <state x="274" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600354533423" />
     <state x="412" y="171" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600628361998">
       <screen x="0" y="0" width="1366" height="738" />
@@ -529,10 +556,10 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="1796" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600095629236" />
-    <state x="-18" y="0" width="1110" height="692" key="CommitChangelistDialog2" timestamp="1600629827559">
+    <state x="216" y="0" width="1110" height="738" key="CommitChangelistDialog2" timestamp="1600629098462">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="-18" y="0" width="1110" height="692" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1600629827559" />
+    <state x="216" y="0" width="1110" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1600629098462" />
     <state x="1449" y="0" key="CommitChangelistDialog2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600349927964" />
     <state x="18" y="56" width="1092" height="618" key="DiffContextDialog" timestamp="1600462834323">
       <screen x="0" y="0" width="1366" height="738" />
@@ -547,26 +574,34 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="241" height="182" key="Git.Branch.Popup/0.0.1366.738@0.0.1366.738" timestamp="1600448513753" />
-    <state width="472" height="509" key="GridCell.Tab.0.bottom" timestamp="1600522298076">
+    <state width="624" height="610" key="GridCell.Tab.0.bottom" timestamp="1600631318778">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="472" height="509" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1600522298076" />
+    <state width="624" height="610" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1600631318778" />
     <state width="447" height="512" key="GridCell.Tab.0.bottom/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600354474699" />
-    <state width="472" height="509" key="GridCell.Tab.0.center" timestamp="1600522298076">
+    <state width="624" height="610" key="GridCell.Tab.0.center" timestamp="1600631318778">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="472" height="509" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1600522298076" />
+    <state width="624" height="610" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1600631318778" />
     <state width="447" height="512" key="GridCell.Tab.0.center/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600354474698" />
-    <state width="472" height="509" key="GridCell.Tab.0.left" timestamp="1600522298075">
+    <state width="624" height="610" key="GridCell.Tab.0.left" timestamp="1600631318778">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="472" height="509" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1600522298075" />
+    <state width="624" height="610" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1600631318778" />
     <state width="447" height="512" key="GridCell.Tab.0.left/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600354474698" />
-    <state width="472" height="509" key="GridCell.Tab.0.right" timestamp="1600522298076">
+    <state width="624" height="610" key="GridCell.Tab.0.right" timestamp="1600631318778">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="472" height="509" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1600522298076" />
+    <state width="624" height="610" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1600631318778" />
     <state width="447" height="512" key="GridCell.Tab.0.right/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600354474698" />
+    <state x="129" y="56" key="MergeDialog" timestamp="1600630473260">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1600630473260" />
+    <state x="321" y="130" key="MultipleFileMergeDialog" timestamp="1600630452375">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="321" y="130" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1600630452375" />
     <state x="1529" y="0" key="SettingsEditor" timestamp="1600095928870">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
@@ -576,11 +611,15 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1599478319029" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1600629841453">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1600630489876">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600629841453" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600630489876" />
     <state x="1641" y="102" key="Vcs.Push.Dialog.v2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600349947361" />
+    <state x="302" y="281" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1600630459746">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="302" y="281" key="git4idea.rebase.GitUnstructuredEditor/0.0.1366.738@0.0.1366.738" timestamp="1600630459746" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1600505937168">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

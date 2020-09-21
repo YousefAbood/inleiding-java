@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="Added If-Statements with Modulo to know whether to use Black or White">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Assignment120.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Assignment120.xml" afterDir="false" />
+    <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/h12/Assignment121.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h11/Assignment120.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h11/Assignment120.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,17 +61,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Applet.Assignment120">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Applet.AppletViewer" />
       <item itemvalue="Applet.Assignment21" />
@@ -137,13 +125,7 @@
       <workItem from="1600421054807" duration="21886000" />
       <workItem from="1600496791837" duration="15291000" />
       <workItem from="1600605934889" duration="3369000" />
-    </task>
-    <task id="LOCAL-00006" summary="Commit">
-      <created>1599485420679</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1599485420679</updated>
+      <workItem from="1600692983502" duration="918000" />
     </task>
     <task id="LOCAL-00007" summary="Klaar">
       <created>1599555077054</created>
@@ -481,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600629102553</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Changed values of X &amp; Y, Created setText(), Done.">
+      <created>1600631461503</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1600631461503</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,9 +496,9 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment22, Backgroundcolor White Roepnaam Blue Achternaam Red" />
     <MESSAGE value="Example Commit" />
     <MESSAGE value="GelijkbenigeDriehoek" />
     <MESSAGE value="Commit" />
@@ -534,7 +523,8 @@
     <MESSAGE value="Created If-Statement to go down one level every 8 squares." />
     <MESSAGE value="Created If-Statement to switch black and white according to %, Cleaner Code!" />
     <MESSAGE value="Created submitClass(Class) &amp; Instance (submitEvent) &amp; Button (submitButton) &amp; Variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created submitClass(Class) &amp; Instance (submitEvent) &amp; Button (submitButton) &amp; Variables" />
+    <MESSAGE value="Changed values of X &amp; Y, Created setText(), Done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed values of X &amp; Y, Created setText(), Done." />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -556,10 +546,10 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="1796" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600095629236" />
-    <state x="216" y="0" width="1110" height="738" key="CommitChangelistDialog2" timestamp="1600629098462">
+    <state x="231" y="0" width="1110" height="738" key="CommitChangelistDialog2" timestamp="1600631458920">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="216" y="0" width="1110" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1600629098462" />
+    <state x="231" y="0" width="1110" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1600631458920" />
     <state x="1449" y="0" key="CommitChangelistDialog2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600349927964" />
     <state x="18" y="56" width="1092" height="618" key="DiffContextDialog" timestamp="1600462834323">
       <screen x="0" y="0" width="1366" height="738" />
@@ -574,25 +564,25 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="241" height="182" key="Git.Branch.Popup/0.0.1366.738@0.0.1366.738" timestamp="1600448513753" />
-    <state width="624" height="610" key="GridCell.Tab.0.bottom" timestamp="1600631318778">
+    <state width="624" height="610" key="GridCell.Tab.0.bottom" timestamp="1600631477559">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="624" height="610" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1600631318778" />
+    <state width="624" height="610" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1600631477559" />
     <state width="447" height="512" key="GridCell.Tab.0.bottom/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600354474699" />
-    <state width="624" height="610" key="GridCell.Tab.0.center" timestamp="1600631318778">
+    <state width="624" height="610" key="GridCell.Tab.0.center" timestamp="1600631477558">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="624" height="610" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1600631318778" />
+    <state width="624" height="610" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1600631477558" />
     <state width="447" height="512" key="GridCell.Tab.0.center/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600354474698" />
-    <state width="624" height="610" key="GridCell.Tab.0.left" timestamp="1600631318778">
+    <state width="624" height="610" key="GridCell.Tab.0.left" timestamp="1600631477558">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="624" height="610" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1600631318778" />
+    <state width="624" height="610" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1600631477558" />
     <state width="447" height="512" key="GridCell.Tab.0.left/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600354474698" />
-    <state width="624" height="610" key="GridCell.Tab.0.right" timestamp="1600631318778">
+    <state width="624" height="610" key="GridCell.Tab.0.right" timestamp="1600631477558">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="624" height="610" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1600631318778" />
+    <state width="624" height="610" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1600631477558" />
     <state width="447" height="512" key="GridCell.Tab.0.right/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600354474698" />
     <state x="129" y="56" key="MergeDialog" timestamp="1600630473260">
       <screen x="0" y="0" width="1366" height="738" />
@@ -611,10 +601,10 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1599478319029" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1600630489876">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1600631465364">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600630489876" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600631465364" />
     <state x="1641" y="102" key="Vcs.Push.Dialog.v2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600349947361" />
     <state x="302" y="281" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1600630459746">
       <screen x="0" y="0" width="1366" height="738" />

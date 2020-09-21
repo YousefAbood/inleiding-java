@@ -128,13 +128,6 @@
       <workItem from="1600605934889" duration="3369000" />
       <workItem from="1600692983502" duration="9897000" />
     </task>
-    <task id="LOCAL-00010" summary="Klaar">
-      <created>1599583646279</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1599583646376</updated>
-    </task>
     <task id="LOCAL-00011" summary="Klaar">
       <created>1599584684324</created>
       <option name="number" value="00011" />
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600708165620</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Changed values of X &amp; Y, Created setText(), Done.">
+      <created>1600708519588</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1600708519589</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,11 +521,11 @@
     <MESSAGE value="Created If-Statement to go down one level every 8 squares." />
     <MESSAGE value="Created If-Statement to switch black and white according to %, Cleaner Code!" />
     <MESSAGE value="Created submitClass(Class) &amp; Instance (submitEvent) &amp; Button (submitButton) &amp; Variables" />
-    <MESSAGE value="Changed values of X &amp; Y, Created setText(), Done." />
     <MESSAGE value="Created an Array, Initialized first value in that array." />
     <MESSAGE value="Created Generation Class, Instance (generateEvent) for Button, For-Loop, Initialized x, y, i, random." />
     <MESSAGE value="Revert &quot;Created Color System, Changes Color after every For-Loop&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Created Color System, Changes Color after every For-Loop&quot;" />
+    <MESSAGE value="Changed values of X &amp; Y, Created setText(), Done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed values of X &amp; Y, Created setText(), Done." />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -547,11 +547,11 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="1796" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600095629236" />
-    <state x="1714" y="84" width="973" height="443" key="CommitChangelistDialog2" timestamp="1600708162901">
+    <state x="1584" y="0" width="973" height="443" key="CommitChangelistDialog2" timestamp="1600708516813">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="231" y="0" width="1110" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1600631458920" />
-    <state x="1714" y="84" width="973" height="443" key="CommitChangelistDialog2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600708162901" />
+    <state x="1584" y="0" width="973" height="443" key="CommitChangelistDialog2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600708516813" />
     <state x="18" y="56" width="1092" height="618" key="DiffContextDialog" timestamp="1600462834323">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -602,11 +602,11 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1599478319029" />
-    <state x="1641" y="102" key="Vcs.Push.Dialog.v2" timestamp="1600708171410">
+    <state x="1641" y="102" key="Vcs.Push.Dialog.v2" timestamp="1600708535333">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600631465364" />
-    <state x="1641" y="102" key="Vcs.Push.Dialog.v2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600708171410" />
+    <state x="1641" y="102" key="Vcs.Push.Dialog.v2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600708535333" />
     <state x="302" y="281" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1600630459746">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

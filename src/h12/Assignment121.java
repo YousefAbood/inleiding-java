@@ -8,9 +8,12 @@ import java.util.*;
 
 public class Assignment121 extends Applet {
 
+    Boolean active = Boolean.FALSE;
     Button generateButton;
-    int x, y, i, output, average, random;
-    int[] numbers;
+    int x, y, i, roundedAverage, roundedInput;
+    double average, random, input, output, roundedOutput, roundedDrawnInput;
+    double[] numbers = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+
 
     public void init() {
 
@@ -40,18 +43,41 @@ public class Assignment121 extends Applet {
     public void paint(Graphics g) {
         g.setColor(Color.black);
         g.setFont(new Font("Courier", Font.BOLD, 20));
-        g.drawString("Index " + i + " >> " + random, x, y);
+        if (active) {
+            for (i = 0; i < 10; i++) {
+                x += 30;
+                y += 30;
+                random = Math.random() * 100 + 1;
+                input = numbers[i];
+                input = random;
+                output += random;
+                average = output / numbers.length;
+
+                // Rounded Average
+                roundedAverage = (int) (average * 10);
+                roundedOutput = roundedAverage / 10.0;
+
+                // Rounded Output
+                roundedInput = (int) (input * 10);
+                roundedDrawnInput = roundedInput / 10.0;
+
+                g.drawString("Index " + i + " >> " + roundedDrawnInput, x, y);
+                System.out.println("Input >> " + input);
+                System.out.println("Random >> " + random);
+                System.out.println("Output >> " + output);
+                System.out.println("Average >> " + average);
+                System.out.println("----------------");
+            }
+            g.drawString("Average >> " + roundedOutput, x+30, y+30);
+        }
     }
 
     class generateClass implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            for (i = 0; i < 11; i++) {
-                x += 50;
-                y += 50;
-                random = (int)(Math.random() * 50 +1);
-                numbers[i] = random;
-                repaint();
-            }
+            x = 20;
+            y = 20;
+            active = Boolean.TRUE;
+            repaint();
         }
     }
 }

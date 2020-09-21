@@ -13,6 +13,7 @@ public class Assignment120 extends Applet {
     int i, output, getTextstrToInt, x, y;
     Color SkyColor = new Color(69, 182, 217);
 
+
     public void init() {
 
         // Background Color

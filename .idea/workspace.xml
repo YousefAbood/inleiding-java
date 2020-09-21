@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Assignment121.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h12/Assignment121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h12/Assignment121.java" afterDir="false" />
+    <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="" />
+    <list id="10abfd90-37be-4f87-8df5-1b6e03f556f8" name="Revert &quot;Created Color System, Changes Color after every For-Loop&quot;" comment="Revert &quot;Created Color System, Changes Color after every For-Loop&quot;&#10;&#10;This reverts commit 5e72dc2e">
+      <change beforePath="$PROJECT_DIR$/src/h11/Assignment120.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h11/Assignment120.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,13 +127,6 @@
       <workItem from="1600496791837" duration="15291000" />
       <workItem from="1600605934889" duration="3369000" />
       <workItem from="1600692983502" duration="9897000" />
-    </task>
-    <task id="LOCAL-00009" summary="Klaar">
-      <created>1599576463394</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1599576463394</updated>
     </task>
     <task id="LOCAL-00010" summary="Klaar">
       <created>1599583646279</created>
@@ -472,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600695647851</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Revert &quot;Created Color System, Changes Color after every For-Loop&quot;">
+      <created>1600708165619</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1600708165620</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +500,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit" />
     <MESSAGE value="Klaar" />
     <MESSAGE value="x-axis, y-axis variables initialized" />
     <MESSAGE value="Created WHILE-Loop, Initialized &quot;i&quot; variable, replaced constant variables in drawLine to variables." />
@@ -526,7 +524,8 @@
     <MESSAGE value="Changed values of X &amp; Y, Created setText(), Done." />
     <MESSAGE value="Created an Array, Initialized first value in that array." />
     <MESSAGE value="Created Generation Class, Instance (generateEvent) for Button, For-Loop, Initialized x, y, i, random." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Generation Class, Instance (generateEvent) for Button, For-Loop, Initialized x, y, i, random." />
+    <MESSAGE value="Revert &quot;Created Color System, Changes Color after every For-Loop&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Created Color System, Changes Color after every For-Loop&quot;" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -548,11 +547,11 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="1796" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600095629236" />
-    <state x="1714" y="84" width="973" height="443" key="CommitChangelistDialog2" timestamp="1600695645173">
+    <state x="1714" y="84" width="973" height="443" key="CommitChangelistDialog2" timestamp="1600708162901">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="231" y="0" width="1110" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1600631458920" />
-    <state x="1714" y="84" width="973" height="443" key="CommitChangelistDialog2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600695645173" />
+    <state x="1714" y="84" width="973" height="443" key="CommitChangelistDialog2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600708162901" />
     <state x="18" y="56" width="1092" height="618" key="DiffContextDialog" timestamp="1600462834323">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -603,11 +602,11 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1599478319029" />
-    <state x="1641" y="102" key="Vcs.Push.Dialog.v2" timestamp="1600696142803">
+    <state x="1641" y="102" key="Vcs.Push.Dialog.v2" timestamp="1600708171410">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600631465364" />
-    <state x="1641" y="102" key="Vcs.Push.Dialog.v2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600696142803" />
+    <state x="1641" y="102" key="Vcs.Push.Dialog.v2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600708171410" />
     <state x="302" y="281" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1600630459746">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

@@ -6,8 +6,11 @@ import java.awt.event.*;
 
 public class Assignment123 extends Applet {
 
-    int i;
+    int i, d, strToInt;
+    String getText;
     Label sortLabel;
+    Button sortButton;
+    int[] sortInt = new int[5];
     TextField[] sortTextField = new TextField[5];
 
     public void init() {
@@ -20,6 +23,11 @@ public class Assignment123 extends Applet {
         int width = screenSize.width;
         int height = screenSize.height;
         resize(width, height);
+
+        // Button
+        sortButton = new Button(">> Sort <<");
+        sortClass sortButtonEvent = new sortClass();
+        sortButton.addActionListener(sortButtonEvent);
 
         // TextField
         sortLabel = new Label("Fill in 5 Numbers, Click on Sort to sort them! >> ");
@@ -43,7 +51,10 @@ public class Assignment123 extends Applet {
 
     class sortClass implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-
+            for (d = 0; d < 5; d++) {
+                getText = sortTextField[i].getText();
+                strToInt = Integer.parseInt(getText);
+            }
         }
     }
 }

@@ -4,12 +4,13 @@ import javax.swing.*;
 import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.*;
 
 // Made a Game, Generate 6 numbers between 1 & 10, the person tries to guess with the textfield, if he is wrong he can try again.
 public class Assignment124 extends Applet {
 
     boolean active = Boolean.FALSE;
-    int i, strToInt;
+    int i, x, y, strToInt, random, input;
     int[] generatedNum = {0, 0, 0, 0, 0, 0};
     String getText;
     Button guessButton, generateButton;
@@ -31,15 +32,26 @@ public class Assignment124 extends Applet {
 
         // Guess Button
         guessButton = new Button(">> Guess <<");
+        guessClass guessButtonEvent = new guessClass();
+        guessButton.addActionListener(guessButtonEvent);
 
         // Generate Button
         generateButton = new Button(">> Generate <<");
+        generateClass generateButtonEvent = new generateClass();
+        generateButton.addActionListener(generateButtonEvent);
 
         // Textfield
         guessLabel = new Label("Click Generate to Generate New Numbers >> " + "Click Guess to know if your Guess was correct"  );
         guessTextField = new TextField("", 20);
+        guessClass guessTextFieldEvent = new guessClass();
+        guessTextField.addActionListener(guessTextFieldEvent);
 
         // Variables
+        x = 40;
+        y = 40;
+
+        // Generate
+
 
         // Add
         add(guessLabel);
@@ -52,7 +64,6 @@ public class Assignment124 extends Applet {
     public void paint(Graphics g) {
         g.setColor(Color.black);
         g.setFont(new Font("Courier", Font.BOLD, 20));
-
     }
 
     // Gets Text to decide whether the guess is correct
@@ -65,7 +76,14 @@ public class Assignment124 extends Applet {
     // Generates the numbers you are going to be guessing from
     class generateClass implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-
+            for (i = 0; i < 6; i++) {
+                random = (int) (Math.random() * 10 + 1);
+                input = random;
+                generatedNum[i] = input;
+                System.out.println("Input >> " + input);
+                System.out.println("Index " + i + " >> "+  generatedNum[i]);
+                System.out.println("---------------");
+            }
         }
     }
 

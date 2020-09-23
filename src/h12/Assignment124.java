@@ -10,7 +10,9 @@ import java.util.*;
 public class Assignment124 extends Applet {
 
     boolean active = Boolean.FALSE;
-    int i, x, y, strToInt, random, input;
+    boolean correct = Boolean.FALSE;
+    boolean wrong = Boolean.FALSE;
+    int i, v, x, y, strToInt, random, input, output;
     int[] generatedNum = {0, 0, 0, 0, 0, 0};
     String getText;
     Button guessButton, generateButton;
@@ -50,9 +52,6 @@ public class Assignment124 extends Applet {
         x = 40;
         y = 40;
 
-        // Generate
-
-
         // Add
         add(guessLabel);
         add(guessTextField);
@@ -69,7 +68,18 @@ public class Assignment124 extends Applet {
     // Gets Text to decide whether the guess is correct
     class guessClass implements ActionListener {
         public void actionPerformed(ActionEvent e) {
+            getText = guessTextField.getText();
+            strToInt = Integer.parseInt(getText);
+            if (active) {
+                for (v = 0; v < 6; v++) {
+                    if (strToInt == generatedNum[i]) {
 
+                    }
+                    else {
+
+                    }
+                }
+            }
         }
     }
 
@@ -77,13 +87,16 @@ public class Assignment124 extends Applet {
     class generateClass implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             for (i = 0; i < 6; i++) {
+                active = Boolean.FALSE;
                 random = (int) (Math.random() * 10 + 1);
-                input = random;
-                generatedNum[i] = input;
-                System.out.println("Input >> " + input);
+                output = random;
+                generatedNum[i] = output;
+                System.out.println("Input >> " + output);
                 System.out.println("Index " + i + " >> "+  generatedNum[i]);
                 System.out.println("---------------");
+                repaint();
             }
+            active = Boolean.TRUE;
         }
     }
 

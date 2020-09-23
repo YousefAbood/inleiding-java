@@ -3,15 +3,16 @@ package h12;
 import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.*;
 
 public class Assignment123 extends Applet {
 
-    int i, d, strToInt;
+    int i, d, s, x, y = 20, strToInt;
     String getText;
     Label sortLabel;
     Button sortButton;
-    int[] sortInt = new int[5];
-    TextField[] sortTextField = new TextField[5];
+    int[] sortInt = new int[6];
+    TextField[] sortTextField = new TextField[6];
 
     public void init() {
         // Background Color
@@ -37,23 +38,40 @@ public class Assignment123 extends Applet {
         sortTextField[3] = new TextField("", 20);
         sortTextField[4] = new TextField("", 20);
 
+        // Variables
+
+        x = 20;
+        y = 20;
+
         // Add
         add(sortLabel);
         for (i = 0; i < 5; i++) {
             add(sortTextField[i]);
         }
+        add(sortButton);
     }
 
 
     public void paint(Graphics g) {
-
+        Arrays.sort(sortInt);
+        g.setColor(Color.black);
+        g.setFont(new Font("Courier", Font.BOLD, 20));
+        for (s = 0; s < 5; s++) {
+            x += 30;
+            y += 30;
+            g.drawString("" + sortInt[s], x, y);
+        }
     }
 
     class sortClass implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             for (d = 0; d < 5; d++) {
-                getText = sortTextField[i].getText();
+                x = 20;
+                y = 20;
+                getText = sortTextField[d].getText();
                 strToInt = Integer.parseInt(getText);
+                sortInt[d] = strToInt;
+                repaint();
             }
         }
     }

@@ -1,10 +1,8 @@
 package h12;
 
-import javax.swing.*;
 import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.*;
 
 // Made a Game, Generate 6 numbers between 1 & 10, the person tries to guess with the textfield, if he is wrong he can try again.
 public class Assignment124 extends Applet {
@@ -12,16 +10,17 @@ public class Assignment124 extends Applet {
     boolean active = Boolean.FALSE;
     boolean correct = Boolean.FALSE;
     boolean wrong = Boolean.FALSE;
-    int i, v, x, y, strToInt, random, input, output;
+    int i, v, x, y, strToInt, random, output, input;
     int[] generatedNum = {0, 0, 0, 0, 0, 0};
     String getText;
     Button guessButton, generateButton;
     Label guessLabel;
     TextField guessTextField;
+    Color SkyColor = new Color(69, 181, 210);
+
 
     public void init() {
         // Background Color
-        Color SkyColor = new Color(69, 181, 210);
         setBackground(SkyColor);
 
         // Screen Size
@@ -43,14 +42,14 @@ public class Assignment124 extends Applet {
         generateButton.addActionListener(generateButtonEvent);
 
         // Textfield
-        guessLabel = new Label("Click Generate to Generate New Numbers >> " + "Click Guess to know if your Guess was correct"  );
+        guessLabel = new Label("Click Generate to Generate New Numbers >> " + "Click Guess to know if your Guess was correct");
         guessTextField = new TextField("", 20);
         guessClass guessTextFieldEvent = new guessClass();
         guessTextField.addActionListener(guessTextFieldEvent);
 
         // Variables
-        x = 40;
-        y = 40;
+        x = 60;
+        y = 60;
 
         // Add
         add(guessLabel);
@@ -61,25 +60,34 @@ public class Assignment124 extends Applet {
 
 
     public void paint(Graphics g) {
-        g.setColor(Color.black);
+        g.setColor(SkyColor);
         g.setFont(new Font("Courier", Font.BOLD, 20));
+
+        g.setColor(SkyColor);
+        if (strToInt == input) {
+            g.setColor(Color.green);
+            g.drawString("Correct! Your Answer was " + strToInt, x, y);
+        }
+
+        else {
+            g.setColor(Color.red);
+            g.drawString("Wrong! Your Answer was " + strToInt, x, y + 30);
+        }
     }
+
+
+
 
     // Gets Text to decide whether the guess is correct
     class guessClass implements ActionListener {
         public void actionPerformed(ActionEvent e) {
+            active = Boolean.TRUE;
             getText = guessTextField.getText();
             strToInt = Integer.parseInt(getText);
-            if (active) {
-                for (v = 0; v < 6; v++) {
-                    if (strToInt == generatedNum[i]) {
-
-                    }
-                    else {
-
-                    }
-                }
+            for (v = 0; v < 6; v++) {
+                input = generatedNum[v];
             }
+            repaint();
         }
     }
 
@@ -96,8 +104,8 @@ public class Assignment124 extends Applet {
                 System.out.println("---------------");
                 repaint();
             }
-            active = Boolean.TRUE;
         }
     }
 
 }
+

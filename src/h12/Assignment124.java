@@ -10,7 +10,7 @@ public class Assignment124 extends Applet {
     boolean active = Boolean.FALSE;
     boolean correct = Boolean.FALSE;
     boolean wrong = Boolean.FALSE;
-    int i, v, x, y, strToInt, random, output, input;
+    int i, v, w, c, x, y, strToInt, random, output, input, compare, compareIndex;
     int[] generatedNum = {0, 0, 0, 0, 0, 0};
     String getText;
     Button guessButton, generateButton;
@@ -63,16 +63,21 @@ public class Assignment124 extends Applet {
         g.setColor(SkyColor);
         g.setFont(new Font("Courier", Font.BOLD, 20));
 
-        g.setColor(SkyColor);
-        if (strToInt == input) {
+        if (strToInt == compare && !(strToInt == 0)) {
+            System.out.println("Correct");
             g.setColor(Color.green);
-            g.drawString("Correct! Your Answer was " + strToInt, x, y);
+            g.drawString("Correct! Your Answer was " + strToInt + "  Index Number >> " + compareIndex, x, y);
         }
 
         else {
-            g.setColor(Color.red);
-            g.drawString("Wrong! Your Answer was " + strToInt, x, y + 30);
+            if (!(strToInt == 0)) {
+                System.out.println("Wrong");
+                g.setColor(Color.red);
+                g.drawString("Wrong! Your Answer was " + strToInt, x, y + 30);
+
+            }
         }
+
     }
 
 
@@ -81,13 +86,21 @@ public class Assignment124 extends Applet {
     // Gets Text to decide whether the guess is correct
     class guessClass implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            active = Boolean.TRUE;
             getText = guessTextField.getText();
             strToInt = Integer.parseInt(getText);
             for (v = 0; v < 6; v++) {
                 input = generatedNum[v];
+//                System.out.println("input >> " + input);
+//                System.out.println("strToInt >> " + strToInt);
+//                System.out.println("----------------------------------------");
+                if (input == strToInt && !(strToInt == 0)) {
+                    compare = input;
+                    compareIndex = v;
+                    System.out.println("Compare >> " + compare);
+//                    System.out.println("----------------------------------------");
+                }
+                repaint();
             }
-            repaint();
         }
     }
 
@@ -95,14 +108,12 @@ public class Assignment124 extends Applet {
     class generateClass implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             for (i = 0; i < 6; i++) {
-                active = Boolean.FALSE;
                 random = (int) (Math.random() * 10 + 1);
                 output = random;
                 generatedNum[i] = output;
                 System.out.println("Input >> " + output);
                 System.out.println("Index " + i + " >> "+  generatedNum[i]);
                 System.out.println("---------------");
-                repaint();
             }
         }
     }

@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Assignment125.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h12/Assignment125.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h12/Assignment124.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h12/Assignment124.java" afterDir="false" />
     </list>
     <list id="10abfd90-37be-4f87-8df5-1b6e03f556f8" name="Revert &quot;Created Color System, Changes Color after every For-Loop&quot;" comment="Revert &quot;Created Color System, Changes Color after every For-Loop&quot;&#10;&#10;This reverts commit 5e72dc2e">
       <change beforePath="$PROJECT_DIR$/src/h11/Assignment120.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h11/Assignment120.java" afterDir="false" />
@@ -63,7 +64,18 @@
       <recent name="h08" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.Assignment124">
+  <component name="RunManager" selected="Applet.Assignment125">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Applet.AppletViewer" />
       <item itemvalue="Applet.Assignment21" />
@@ -106,6 +118,7 @@
       <item itemvalue="Applet.Assignment122" />
       <item itemvalue="Applet.Assignment123" />
       <item itemvalue="Applet.Assignment124" />
+      <item itemvalue="Applet.Assignment125" />
       <item itemvalue="Applet.Assignment121" />
     </list>
   </component>
@@ -136,14 +149,7 @@
       <workItem from="1600785554933" duration="37702000" />
       <workItem from="1600941690540" duration="3109000" />
       <workItem from="1600970623632" duration="295000" />
-      <workItem from="1600971113092" duration="3067000" />
-    </task>
-    <task id="LOCAL-00023" summary="Klaar">
-      <created>1600084504903</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1600084504903</updated>
+      <workItem from="1600971113092" duration="8034000" />
     </task>
     <task id="LOCAL-00024" summary="Klaar">
       <created>1600102188226</created>
@@ -481,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600933670297</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Improved if-statement, added index counter. Done.">
+      <created>1600974368710</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1600974368711</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,7 +523,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Dynamic For-Loop, Change the number of squares you want drawn." />
     <MESSAGE value="Initialized Variables, Draw Circle" />
     <MESSAGE value="Created For Loop, Dynamic Choice of Circles + Explanation" />
     <MESSAGE value="50 Concentric Circles" />
@@ -535,19 +547,20 @@
     <MESSAGE value="Generate Class now Generates Random Numbers when you click on Generate Button." />
     <MESSAGE value="Guess class now compares and knows if your Guess was correct when you click Guess." />
     <MESSAGE value="Created if-statements to show whether your guess was right or wrong" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created if-statements to show whether your guess was right or wrong" />
+    <MESSAGE value="Improved if-statement, added index counter. Done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved if-statement, added index counter. Done." />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="274" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600855839946">
+    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600976817080">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1600630719716" />
+    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1600976817080" />
     <state x="274" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600855839946" />
-    <state x="1778" y="171" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600855831887">
-      <screen x="1366" y="0" width="1366" height="738" />
+    <state x="412" y="171" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600976804696">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="412" y="171" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1600628361998" />
+    <state x="412" y="171" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1600976804696" />
     <state x="1778" y="171" key="#com.intellij.ide.util.TreeClassChooserDialog/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600855831887" />
     <state x="1729" y="105" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600267176779">
       <screen x="1366" y="0" width="1366" height="738" />
@@ -557,10 +570,10 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="1796" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600095629236" />
-    <state x="231" y="0" width="973" height="443" key="CommitChangelistDialog2" timestamp="1600933665423">
+    <state x="231" y="0" width="973" height="443" key="CommitChangelistDialog2" timestamp="1600974365172">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="231" y="0" width="1110" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1600933665423" />
+    <state x="231" y="0" width="1110" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1600974365172" />
     <state x="1573" y="45" width="973" height="443" key="CommitChangelistDialog2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600867180822" />
     <state x="18" y="56" width="1092" height="618" key="DiffContextDialog" timestamp="1600462834323">
       <screen x="0" y="0" width="1366" height="738" />
@@ -575,25 +588,25 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="241" height="182" key="Git.Branch.Popup/0.0.1366.738@0.0.1366.738" timestamp="1600448513753" />
-    <state width="472" height="610" key="GridCell.Tab.0.bottom" timestamp="1600973692361">
+    <state width="472" height="610" key="GridCell.Tab.0.bottom" timestamp="1600974492466">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="472" height="610" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1600973692361" />
+    <state width="472" height="610" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1600974492466" />
     <state width="578" height="486" key="GridCell.Tab.0.bottom/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600877644338" />
-    <state width="472" height="610" key="GridCell.Tab.0.center" timestamp="1600973692360">
+    <state width="472" height="610" key="GridCell.Tab.0.center" timestamp="1600974492465">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="472" height="610" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1600973692360" />
+    <state width="472" height="610" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1600974492465" />
     <state width="578" height="486" key="GridCell.Tab.0.center/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600877644338" />
-    <state width="472" height="610" key="GridCell.Tab.0.left" timestamp="1600973692359">
+    <state width="472" height="610" key="GridCell.Tab.0.left" timestamp="1600974492465">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="472" height="610" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1600973692359" />
+    <state width="472" height="610" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1600974492465" />
     <state width="578" height="486" key="GridCell.Tab.0.left/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600877644337" />
-    <state width="472" height="610" key="GridCell.Tab.0.right" timestamp="1600973692360">
+    <state width="472" height="610" key="GridCell.Tab.0.right" timestamp="1600974492465">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="472" height="610" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1600973692360" />
+    <state width="472" height="610" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1600974492465" />
     <state width="578" height="486" key="GridCell.Tab.0.right/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600877644338" />
     <state x="129" y="56" key="MergeDialog" timestamp="1600630473260">
       <screen x="0" y="0" width="1366" height="738" />
@@ -616,10 +629,10 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1599478319029" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1600933678383">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1600974374462">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600933678383" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600974374462" />
     <state x="1641" y="102" key="Vcs.Push.Dialog.v2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600867189425" />
     <state x="462" y="213" key="cloudConfig.PluginsDialog" timestamp="1600971243933">
       <screen x="0" y="0" width="1366" height="738" />

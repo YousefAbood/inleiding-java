@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="">
+    <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="New Method, Erase. Switches between Red &amp; Grey on request after Erase has been clicked.">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Assignment134.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h13/Assignment134.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h13/Assignment133.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h13/Assignment133.java" afterDir="false" />
     </list>
     <list id="10abfd90-37be-4f87-8df5-1b6e03f556f8" name="Revert &quot;Created Color System, Changes Color after every For-Loop&quot;" comment="Revert &quot;Created Color System, Changes Color after every For-Loop&quot;&#10;&#10;This reverts commit 5e72dc2e">
       <change beforePath="$PROJECT_DIR$/src/h11/Assignment120.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h11/Assignment120.java" afterDir="false" />
@@ -63,7 +64,7 @@
       <recent name="h08" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.Assignment133">
+  <component name="RunManager" selected="Applet.Assignment134">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -121,6 +122,7 @@
       <item itemvalue="Applet.Assignment121" />
       <item itemvalue="Applet.Assignment132" />
       <item itemvalue="Applet.Assignment133" />
+      <item itemvalue="Applet.Assignment134" />
       <item itemvalue="Applet.Assignment131" />
     </list>
   </component>
@@ -151,14 +153,7 @@
       <workItem from="1600785554933" duration="37702000" />
       <workItem from="1600941690540" duration="3109000" />
       <workItem from="1600970623632" duration="295000" />
-      <workItem from="1600971113092" duration="26158000" />
-    </task>
-    <task id="LOCAL-00030" summary="Klaar">
-      <created>1600198961837</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1600198961837</updated>
+      <workItem from="1600971113092" duration="29632000" />
     </task>
     <task id="LOCAL-00031" summary="x-axis, y-axis variables initialized">
       <created>1600340938139</created>
@@ -496,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601144906908</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="New Method, Erase. Switches between Red &amp; Grey on request after Erase has been clicked.">
+      <created>1601147640847</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1601147640848</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +527,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added If-Statements with Modulo to know whether to use Black or White" />
     <MESSAGE value="Created If-Statement to go down one level every 8 squares." />
     <MESSAGE value="Created If-Statement to switch black and white according to %, Cleaner Code!" />
     <MESSAGE value="Created submitClass(Class) &amp; Instance (submitEvent) &amp; Button (submitButton) &amp; Variables" />
@@ -550,21 +551,22 @@
     <MESSAGE value="Created Method, Now it draws first row of Dark Red Bricks." />
     <MESSAGE value="Method now covers the entire screen with Dark Red Bricks" />
     <MESSAGE value="Method now covers the entire screen with Concrete Grey Bricks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method now covers the entire screen with Concrete Grey Bricks" />
+    <MESSAGE value="New Method, Erase. Switches between Red &amp; Grey on request after Erase has been clicked." />
+    <option name="LAST_COMMIT_MESSAGE" value="New Method, Erase. Switches between Red &amp; Grey on request after Erase has been clicked." />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601144267687">
+    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601150845227">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="128" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1601030787539" />
-    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1601144267687" />
+    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1601150845227" />
     <state x="274" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600855839946" />
-    <state x="412" y="171" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601144264492">
+    <state x="412" y="171" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601150836172">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="386" y="160" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.689@0.0.1280.689" timestamp="1601030774786" />
-    <state x="412" y="171" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1601144264492" />
+    <state x="412" y="171" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1601150836172" />
     <state x="1778" y="171" key="#com.intellij.ide.util.TreeClassChooserDialog/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600855831887" />
     <state x="1729" y="105" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600267176779">
       <screen x="1366" y="0" width="1366" height="738" />
@@ -574,11 +576,11 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="1796" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600095629236" />
-    <state x="231" y="0" width="973" height="443" key="CommitChangelistDialog2" timestamp="1601144904355">
+    <state x="231" y="0" width="973" height="443" key="CommitChangelistDialog2" timestamp="1601151421108">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="216" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1601042109462" />
-    <state x="231" y="0" width="1110" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1601144904355" />
+    <state x="231" y="0" width="1110" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1601151421108" />
     <state x="1573" y="45" width="973" height="443" key="CommitChangelistDialog2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600867180822" />
     <state x="18" y="56" width="1092" height="618" key="DiffContextDialog" timestamp="1600462834323">
       <screen x="0" y="0" width="1366" height="738" />
@@ -593,29 +595,29 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="241" height="182" key="Git.Branch.Popup/0.0.1366.738@0.0.1366.738" timestamp="1600448513753" />
-    <state width="357" height="496" key="GridCell.Tab.0.bottom" timestamp="1601147155614">
+    <state width="357" height="496" key="GridCell.Tab.0.bottom" timestamp="1601152261572">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="334" height="448" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1601042181845" />
-    <state width="357" height="496" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1601147155614" />
+    <state width="357" height="496" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1601152261572" />
     <state width="578" height="486" key="GridCell.Tab.0.bottom/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600877644338" />
-    <state width="357" height="496" key="GridCell.Tab.0.center" timestamp="1601147155613">
+    <state width="357" height="496" key="GridCell.Tab.0.center" timestamp="1601152261571">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="334" height="448" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1601042181811" />
-    <state width="357" height="496" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1601147155613" />
+    <state width="357" height="496" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1601152261571" />
     <state width="578" height="486" key="GridCell.Tab.0.center/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600877644338" />
-    <state width="357" height="496" key="GridCell.Tab.0.left" timestamp="1601147155613">
+    <state width="357" height="496" key="GridCell.Tab.0.left" timestamp="1601152261571">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="334" height="448" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1601042181811" />
-    <state width="357" height="496" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1601147155613" />
+    <state width="357" height="496" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1601152261571" />
     <state width="578" height="486" key="GridCell.Tab.0.left/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600877644337" />
-    <state width="357" height="496" key="GridCell.Tab.0.right" timestamp="1601147155614">
+    <state width="357" height="496" key="GridCell.Tab.0.right" timestamp="1601152261572">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="334" height="448" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1601042181812" />
-    <state width="357" height="496" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1601147155614" />
+    <state width="357" height="496" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1601152261572" />
     <state width="578" height="486" key="GridCell.Tab.0.right/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600877644338" />
     <state x="129" y="56" key="MergeDialog" timestamp="1600630473260">
       <screen x="0" y="0" width="1366" height="738" />
@@ -638,11 +640,11 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1599478319029" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1601144952512">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1601147642794">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="258" y="95" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1601042117000" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601144952512" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601147642794" />
     <state x="1641" y="102" key="Vcs.Push.Dialog.v2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600867189425" />
     <state x="462" y="213" key="cloudConfig.PluginsDialog" timestamp="1600971243933">
       <screen x="0" y="0" width="1366" height="738" />

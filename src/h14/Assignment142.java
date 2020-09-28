@@ -69,8 +69,8 @@ public class Assignment142 extends Applet {
     }
 
     void serveMethod(Graphics g, int x, int y) {
-
-
+        // We shuffle the cards
+        // Make an array with a length less than the original Deck
         // Random Number Generation
         randomNumber = new Random().nextInt(Deck.length);
 
@@ -94,6 +94,11 @@ public class Assignment142 extends Applet {
 
 
     void cardGeneration() {
+
+        // For Loop as long as the array
+        // T adds the type
+        // L adds the Color
+        // When we finish from the first color we go to the second one
         for (v = 0; v < Deck.length; v++) {
             t++;
             if (v%13 == 0 && !(v == 0)) {

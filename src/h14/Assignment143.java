@@ -17,6 +17,9 @@ public class Assignment143 extends Applet {
     Boolean outOfBounds = Boolean.FALSE;
     // Start Computer
     Boolean startComputer = Boolean.FALSE;
+    // Win or LOSS
+    Boolean wol = Boolean.FALSE;
+
 
     // Coordinates & Dimensions
     int x, y, w, h;
@@ -84,11 +87,22 @@ public class Assignment143 extends Applet {
             g.drawString("You put an Invalid Number, Try Again!", 50, 50);
         }
         active = Boolean.TRUE;
+        if(wol) {
+            if(imageNumber <= 0 && playerNumber == 1){
+                g.setColor(Color.red);
+                g.drawString("You Lost!", 600, 600);
+                startComputer = Boolean.FALSE;
+                active = Boolean.FALSE;
+            }
 
-        if(imageNumber == 0){
-            g.drawString("you lost", 60, 60);
+            else{
+                g.setColor(Color.green);
+                g.drawString("You Won!", 60, 60);
+
+            }
         }
 
+        g.setColor(Color.black);
         computerStrategy(g);
         drawingObjects(g);
         g.drawString("Value You Submitted >> " + playerNumber, 75, 75);
@@ -100,7 +114,7 @@ public class Assignment143 extends Applet {
         y = 50;
         if (active) {
             g.setColor(Color.black);
-            for (i = 0; i <= imageNumber; i++) {
+            for (i = 0; i < imageNumber; i++) {
                 x += 100;
                 if (i % 5 == 0) {
                     x = 150;
@@ -145,6 +159,11 @@ public class Assignment143 extends Applet {
             y = 50;
             getText = playerInputTextfield.getText();
             playerNumber = Integer.parseInt(getText);
+
+            if (imageNumber <= 1) {
+                wol = Boolean.TRUE;
+            }
+
             if(playerNumber <= 0 || playerNumber > 3) {
                 outOfBounds = Boolean.TRUE;
             }
@@ -160,6 +179,7 @@ public class Assignment143 extends Applet {
 
     class resetClass implements ActionListener {
         public void actionPerformed(ActionEvent e) {
+            wol = Boolean.FALSE;
             startComputer = Boolean.FALSE;
             outOfBounds = Boolean.FALSE;
             imageNumber = 24;

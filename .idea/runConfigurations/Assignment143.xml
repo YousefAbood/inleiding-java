@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Assignment143" type="Applet" folderName="h14" singleton="false">
+    <option name="HEIGHT" value="960" />
+    <option name="MAIN_CLASS_NAME" value="h14.Assignment143" />
+    <module name="inleiding-java" />
+    <option name="WIDTH" value="1240" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

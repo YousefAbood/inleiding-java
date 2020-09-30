@@ -2,9 +2,9 @@ package h14;
 
 import java.applet.Applet;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 import java.net.*;
+import java.util.*;
 
 public class Assignment143 extends Applet {
 
@@ -15,6 +15,8 @@ public class Assignment143 extends Applet {
     Boolean active = Boolean.FALSE;
     // Not Correct Value Boolean
     Boolean outOfBounds = Boolean.FALSE;
+    // Start Computer
+    Boolean startComputer = Boolean.FALSE;
 
     // Coordinates & Dimensions
     int x, y, w, h;
@@ -28,7 +30,7 @@ public class Assignment143 extends Applet {
     String getText;
 
     // Integers for the Player Input & Computer Input
-    int playerNumber, computerNumber, imageNumber;
+    int playerNumber, computerNumber, imageNumber, randomNumber;
 
     // Images
     Image chessPiece;
@@ -82,6 +84,12 @@ public class Assignment143 extends Applet {
             g.drawString("You put an Invalid Number, Try Again!", 50, 50);
         }
         active = Boolean.TRUE;
+
+        if(imageNumber == 0){
+            g.drawString("you lost", 60, 60);
+        }
+
+        computerStrategy(g);
         drawingObjects(g);
         g.drawString("Value You Submitted >> " + playerNumber, 75, 75);
         g.drawString("Value the Computer Submitted >> " + computerNumber, 100, 100);
@@ -104,8 +112,35 @@ public class Assignment143 extends Applet {
         }
     }
 
+    void computerStrategy(Graphics g) {
+        if(startComputer) {
+            x = 150;
+            y = 50;
+
+            if(imageNumber%4 == 0) {
+                computerNumber = 3;
+            }
+
+            if(imageNumber%4 == 1) {
+                randomNumber = (int) (Math.random());
+                computerNumber = new Random().nextInt(3) + 1;
+            }
+
+            if(imageNumber%4 == 2) {
+                computerNumber = 1;
+            }
+
+            if(imageNumber%4 == 3) {
+                computerNumber = 2;
+            }
+
+            imageNumber -= computerNumber;
+        }
+    }
+
     class submitClass implements ActionListener {
         public void actionPerformed(ActionEvent e) {
+            startComputer = Boolean.TRUE;
             x = 150;
             y = 50;
             getText = playerInputTextfield.getText();
@@ -118,15 +153,21 @@ public class Assignment143 extends Applet {
                 outOfBounds = Boolean.FALSE;
                 imageNumber -= playerNumber;
             }
+            playerInputTextfield.setText("");
             repaint();
         }
     }
 
     class resetClass implements ActionListener {
         public void actionPerformed(ActionEvent e) {
+            startComputer = Boolean.FALSE;
+            outOfBounds = Boolean.FALSE;
             imageNumber = 24;
+            playerNumber = 0;
+            computerNumber = 0;
             x = 150;
             y = 50;
+            playerInputTextfield.setText("");
             repaint();
         }
     }

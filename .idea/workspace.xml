@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33c9a94b-bbb2-4b60-89c1-87176b31f0de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/testing.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h14/Assignment143.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h14/Assignment143.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h08/testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h08/testing.java" afterDir="false" />
     </list>
     <list id="10abfd90-37be-4f87-8df5-1b6e03f556f8" name="Revert &quot;Created Color System, Changes Color after every For-Loop&quot;" comment="Revert &quot;Created Color System, Changes Color after every For-Loop&quot;&#10;&#10;This reverts commit 5e72dc2e">
       <change beforePath="$PROJECT_DIR$/src/h11/Assignment120.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h11/Assignment120.java" afterDir="false" />
@@ -63,7 +64,7 @@
       <recent name="h08" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.Assignment143">
+  <component name="RunManager" selected="Applet.testing">
     <list>
       <item itemvalue="Applet.AppletViewer" />
       <item itemvalue="Applet.Assignment21" />
@@ -151,14 +152,8 @@
       <workItem from="1601271720312" duration="21034000" />
       <workItem from="1601358060692" duration="7796000" />
       <workItem from="1601447579988" duration="4978000" />
-      <workItem from="1601458671785" duration="20137000" />
-    </task>
-    <task id="LOCAL-00043" summary="Added Dynamic For-Loop, Change the number of squares you want drawn.">
-      <created>1600426237266</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1600426237266</updated>
+      <workItem from="1601458671785" duration="21112000" />
+      <workItem from="1602052295495" duration="4746000" />
     </task>
     <task id="LOCAL-00044" summary="Initialized Variables, Draw Circle">
       <created>1600427261160</created>
@@ -496,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601493544121</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Added Win or Lose Screen Ending">
+      <created>1601494593482</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1601494593482</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +527,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created Color System, Changes Color after every For-Loop" />
     <MESSAGE value="Imported Util, Implemented Sort method, Created For Loop to print out Sorted Array." />
     <MESSAGE value="Created Array, 2 Classes, 2 Buttons, 1 TextField, 1 Label. Explanation over the Applet Above." />
     <MESSAGE value="Generate Class now Generates Random Numbers when you click on Generate Button." />
@@ -550,15 +551,16 @@
     <MESSAGE value="Created 3 Buttons, 1 TextField, 1 Label, Imported Picture" />
     <MESSAGE value="Shows 24 Chess Pieces, Submit works, Reset Works, Invalid Number." />
     <MESSAGE value="Added Computer Strategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Computer Strategy" />
+    <MESSAGE value="Added Win or Lose Screen Ending" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Win or Lose Screen Ending" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601462559014">
+    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602053670518">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="128" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1601030787539" />
-    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1601462559014" />
+    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1602053670518" />
     <state x="274" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1601390758064" />
     <state x="1778" y="171" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601390747541">
       <screen x="1366" y="0" width="1366" height="738" />
@@ -574,11 +576,11 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="1796" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1600095629236" />
-    <state x="231" y="0" width="973" height="443" key="CommitChangelistDialog2" timestamp="1601493538262">
+    <state x="231" y="0" width="973" height="443" key="CommitChangelistDialog2" timestamp="1601494587848">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="216" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1601042109462" />
-    <state x="231" y="0" width="1110" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1601493538262" />
+    <state x="231" y="0" width="1110" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1601494587848" />
     <state x="1573" y="45" width="973" height="443" key="CommitChangelistDialog2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1601386155468" />
     <state x="18" y="56" width="1092" height="618" key="DiffContextDialog" timestamp="1600462834323">
       <screen x="0" y="0" width="1366" height="738" />
@@ -593,29 +595,29 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="241" height="182" key="Git.Branch.Popup/0.0.1366.738@0.0.1366.738" timestamp="1600448513753" />
-    <state width="338" height="477" key="GridCell.Tab.0.bottom" timestamp="1601494014254">
+    <state width="338" height="473" key="GridCell.Tab.0.bottom" timestamp="1602056284430">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="334" height="448" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1601042181845" />
-    <state width="338" height="477" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1601494014254" />
+    <state width="338" height="473" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1602056284430" />
     <state width="634" height="485" key="GridCell.Tab.0.bottom/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1601390659004" />
-    <state width="338" height="477" key="GridCell.Tab.0.center" timestamp="1601494014254">
+    <state width="338" height="473" key="GridCell.Tab.0.center" timestamp="1602056284430">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="334" height="448" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1601042181811" />
-    <state width="338" height="477" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1601494014254" />
+    <state width="338" height="473" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1602056284430" />
     <state width="634" height="485" key="GridCell.Tab.0.center/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1601390659003" />
-    <state width="338" height="477" key="GridCell.Tab.0.left" timestamp="1601494014254">
+    <state width="338" height="473" key="GridCell.Tab.0.left" timestamp="1602056284430">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="334" height="448" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1601042181811" />
-    <state width="338" height="477" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1601494014254" />
+    <state width="338" height="473" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1602056284430" />
     <state width="634" height="485" key="GridCell.Tab.0.left/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1601390659003" />
-    <state width="338" height="477" key="GridCell.Tab.0.right" timestamp="1601494014254">
+    <state width="338" height="473" key="GridCell.Tab.0.right" timestamp="1602056284430">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="334" height="448" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1601042181812" />
-    <state width="338" height="477" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1601494014254" />
+    <state width="338" height="473" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1602056284430" />
     <state width="634" height="485" key="GridCell.Tab.0.right/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1601390659004" />
     <state x="129" y="56" key="MergeDialog" timestamp="1600630473260">
       <screen x="0" y="0" width="1366" height="738" />
@@ -638,11 +640,11 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1599478319029" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1601493546652">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1601494598464">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="258" y="95" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1601042117000" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601493546652" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601494598464" />
     <state x="1641" y="102" key="Vcs.Push.Dialog.v2/1366.0.1366.738/0.0.1366.738@1366.0.1366.738" timestamp="1601386207299" />
     <state x="462" y="213" key="cloudConfig.PluginsDialog" timestamp="1600971243933">
       <screen x="0" y="0" width="1366" height="738" />
